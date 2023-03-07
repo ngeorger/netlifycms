@@ -1,7 +1,7 @@
 version: 1
 
 update_configs:
-  - package_manager: javascript
+  - package_manager: npm
     directory: /
     update_schedule: live
     allowed_updates:
@@ -10,5 +10,5 @@ update_configs:
     automerged_updates:
       - match:
           dependency_type: all
-          update_type: in_range
-    version_requirement_updates: widen_ranges
+#          update_type: in_range
+#    version_requirement_updates: widen_ranges
